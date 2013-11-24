@@ -39,7 +39,6 @@
   <ItemGroup>
     <Compile Include="AsyncTcpSession.cs" />
     <Compile Include="ClientSession.cs" />
-    <Compile Include="ConcurrentQueue.cs" />
     <Compile Include="DataEventArgs.cs" />
     <Compile Include="ErrorEventArgs.cs" />
     <Compile Include="IBufferSetter.cs" />
