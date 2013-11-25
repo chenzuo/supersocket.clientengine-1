@@ -158,7 +158,7 @@ namespace SuperSocket.ClientEngine
 
 #if !SILVERLIGHT
             //Set keep alive
-            Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.KeepAlive, true);
+			Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.KeepAlive, true);
 #endif
             OnGetSocket(e);
         }
