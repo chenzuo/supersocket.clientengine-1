@@ -68,17 +68,27 @@
     <Compile Include="..\GlobalAssemblyInfo.cs">
       <Link>GlobalAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="AtomicBoolean.cs" />
     <Compile Include="BlockingCollection.cs" />
     <Compile Include="ClientSession.cs" />
     <Compile Include="ConcurrentDictionary.cs" />
     <Compile Include="ConcurrentQueue.cs" />
+    <Compile Include="ConcurrentSkipList.cs" />
     <Compile Include="DataEventArgs.cs" />
     <Compile Include="ErrorEventArgs.cs" />
+    <Compile Include="FormatterConverter.cs" />
     <Compile Include="IBufferSetter.cs" />
     <Compile Include="IClientSession.cs" />
     <Compile Include="AsyncTcpSession.cs" />
+    <Compile Include="IDeserializationCallback.cs" />
+    <Compile Include="IFormatterConverter.cs" />
+    <Compile Include="IProducerConsumerCollection.cs" />
+    <Compile Include="ISerializable.cs" />
     <Compile Include="NetworkStream.cs" />
     <Compile Include="Properties\AssemblyInfo.WP80.cs" />
+    <Compile Include="SerializationEntry.cs" />
+    <Compile Include="SerializationInfo.cs" />
+    <Compile Include="SerializationInfoEnumerator.cs" />
     <Compile Include="SslStream.cs" />
     <Compile Include="SslStreamTcpSession.cs" />
     <Compile Include="TcpClientSession.cs" />
